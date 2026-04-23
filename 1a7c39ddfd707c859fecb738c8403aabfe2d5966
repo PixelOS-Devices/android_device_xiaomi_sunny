@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f2fabc0c_fc89cdef",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000008
+      },
+      "writtenOn": "2026-04-23T01:45:49Z",
+      "side": 1,
+      "message": "Consider https://review.pixelos.net/q/I239c31b6ea5a7813abc3e9cfbefb6d2bdcc1a9e0 instead",
+      "revId": "1a7c39ddfd707c859fecb738c8403aabfe2d5966",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    }
+  ]
+}
