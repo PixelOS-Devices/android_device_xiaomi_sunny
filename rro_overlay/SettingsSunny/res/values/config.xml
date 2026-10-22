@@ -24,4 +24,7 @@
     <!-- Whether to show a preference item for regulatory information in About phone -->
     <bool name="config_show_regulatory_info">true</bool>
 
+    <!-- Whether Settings should open a separate camera preview during face enrollment -->
+    <bool name="config_face_enroll_hal_owns_camera">true</bool>
+
 </resources>

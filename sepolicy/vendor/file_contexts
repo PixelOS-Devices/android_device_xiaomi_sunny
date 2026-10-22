@@ -20,6 +20,11 @@
 /dev/elliptic[0-9]                                                      u:object_r:ultrasound_device:s0
 /dev/mius(.*)?                                                          u:object_r:ultrasound_device:s0
 
+# Face unlock
+/data/vendor/face(/.*)?                                                 u:object_r:vendor_face_data_file:s0
+/vendor/bin/hw/android\.hardware\.biometrics\.face-service\.xiaomi      u:object_r:hal_face_default_exec:s0
+/vendor/etc/faceunlock(/.*)?                                            u:object_r:vendor_face_resources_file:s0
+
 # Files in rootfs
 /avb(/.*)?                                 u:object_r:avb_file:s0
 
